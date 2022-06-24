@@ -6,15 +6,17 @@ This code does the following things for you:
 2. from measured noise ACF, compute the noise in the spatially integrated quantities (e.g., flux, spectrum) with a given aperture. 
 3. from measured noise ACF, simulate noise maps with the same correlation property.
 
-### Requirements (Tested version):
-
->  python-------------(3.7.7)  
->  astropy------------(4.3.1)  
->  spectral_cube------(0.6.0)  
->  numpy--------------(1.21.5)  
->  scipy--------------(1.7.3)  
->  multiprocess-------(0.70.13)  
->  functools 
+### Requirements:
+	
+| Packages | Tested version |
+| --------------:|---------------:|
+| python | 3.7.7 |
+| astropy | 4.3.1 |
+| spectral_cube | 0.6.0 |
+| numpy | 1.21.5 |
+| scipy | 1.7.3 |
+| multiprocess | 0.70.13 |
+| functools | |
 
 ### Installation:
 
@@ -29,6 +31,5 @@ Usage:
 see [tutorial]() 
 
 Contacts:
-
 
 Takafumi Tsukui: tsukuitk23@gmail.com
