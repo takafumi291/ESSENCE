@@ -25,11 +25,10 @@ Not required. Just git pull the software to a desired directory.
 >        $ git clone https://github.com/takafumi291/ESSENCE.git
 >        $ cd essence
   
-Usage:
+### Usage:
 
+See [tutorial]() for a quick example. 
 
-See [tutorial](). 
-
-Contacts:
+### Contacts:
 
 Takafumi Tsukui: tsukuitk23@gmail.com
