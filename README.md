@@ -27,7 +27,7 @@ Not required. Just git pull the software to a desired directory.
   
 ### Usage:
 
-See [tutorial]() for a quick example. 
+See [tutorial](https://github.com/takafumi291/ESSENCE/blob/main/Tutorial.ipynb) for a quick example. 
 
 ### Contacts:
 
