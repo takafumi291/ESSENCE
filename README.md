@@ -22,13 +22,13 @@ This code does the following things for you:
 
 
 Not required. Just git pull the software to a desired directory.    
->        $ git clone 
+>        $ git clone https://github.com/takafumi291/ESSENCE.git
 >        $ cd essence
   
 Usage:
 
 
-see [tutorial]() 
+See [tutorial](). 
 
 Contacts:
 
