@@ -24,7 +24,12 @@ This code does the following things for you:
 Not required. Just git pull the software to a desired directory.    
 >        $ git clone https://github.com/takafumi291/ESSENCE.git
 >        $ cd essence
-  
+
+### Example data:
+
+For running tutorial.ipynb, please download example data [here](https://drive.google.com/file/d/1h0wEPHVebVSjl803r9LnQyBTxfoU2kBY/view?usp=sharing), unzip, and place it in the same directory of the ipynb file.  
+The data is from Tsukui and Iguchi 2021, Sci (ADS/JAO.ALMA2017.1.00394.S PI=Gonzalez Lopez, Jorg)
+
 ### Usage:
 
 See [tutorial](https://github.com/takafumi291/ESSENCE/blob/main/Tutorial.ipynb) for a quick example. 
