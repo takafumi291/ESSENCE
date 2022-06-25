@@ -27,7 +27,7 @@ Not required. Just git pull the software to a desired directory.
 
 ### Example data:
 
-For running tutorial.ipynb, please download example data [here](https://drive.google.com/file/d/1h0wEPHVebVSjl803r9LnQyBTxfoU2kBY/view?usp=sharing), unzip, and place it in the same directory of the ipynb file.  
+For running tutorial.ipynb, please download [example data](https://drive.google.com/file/d/1h0wEPHVebVSjl803r9LnQyBTxfoU2kBY/view?usp=sharing), unzip, and place it in the same directory of the ipynb file.  
 The data is from Tsukui and Iguchi 2021, Sci (ADS/JAO.ALMA2017.1.00394.S PI=Gonzalez Lopez, Jorg)
 
 ### Usage:
