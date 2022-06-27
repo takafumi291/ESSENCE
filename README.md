@@ -6,6 +6,8 @@ This code does the following things for you:
 2. compute the noise in the spatially integrated quantities (e.g., flux, spectrum) with a given aperture. 
 3. simulate noise maps with the same correlation property.
 
+Detailed formulation of ESSENCE and its application are presented in Tsukui et al. 2022.
+
 ### Requirements:
 	
 | Packages | Tested version |
