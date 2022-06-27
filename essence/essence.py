@@ -359,7 +359,7 @@ def mk_noisespec(mask, acf_cube):
 def mk_noise_var_randaperture(noise_image, mask, plot=True):
     """
     generate noise in spatially integrated flux (2d image) or spectrum (cube) 
-    by placing random aperture and taking the rms across the summed values on the aperture. 
+    by placing aperture in the noise region randomly and taking the rms across the summed values on the aperture. 
     noise_image: noise_map produced by mk_noisemap
     mask: 2d boolean aperture mask 
     """
