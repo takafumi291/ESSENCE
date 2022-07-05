@@ -22,8 +22,7 @@ Detailed formulation of ESSENCE and its application are presented in Tsukui et a
 
 ### Installation:
 
-
-Not required. Just git pull the software to a desired directory.    
+Not required. Git clone the software to a desired directory.    
 >        $ git clone https://github.com/takafumi291/ESSENCE.git
 >        $ cd essence
 
