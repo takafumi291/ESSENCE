@@ -36,6 +36,6 @@ The data is from Tsukui and Iguchi 2021, Sci (ADS/JAO.ALMA2017.1.00394.S PI=Gonz
 See [tutorial](https://github.com/takafumi291/ESSENCE/blob/main/Tutorial.ipynb) for a quick example. 
 
 ### Contacts:
-I am open to collaboration, e.g., any suggestion, feedback, or directly improving my codes. I am also happy to help with any difficulties you encounter using my codes. Feel free to contact me! 
+I am open to collaborations, e.g., any suggestion, feedback, or directly improving my codes. I am also happy to help with any difficulties you encounter using my codes. Feel free to contact me! 
 
 Takafumi Tsukui: tsukuitk23_at_gmail.com
