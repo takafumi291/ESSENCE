@@ -452,3 +452,24 @@ def mk_simnoise_cube(pixwidth, acf, cpus2use=None):
 
     else:
         print("use mk_simnoise")
+
+###################################################################################################################################################
+
+def mk_cov(pixwidth, acf, silent=False):
+    """
+    compute covariance from measured acf
+    the output covariance has dimension of pixwidth^2 x pixwidth^2
+    """
+    t1=time.time()
+    X,Y = np.meshgrid(np.arange(pixwidth),np.arange(pixwidth))
+    # Create a vector of cells
+    #XY = np.column_stack((np.ndarray.flatten(X),np.ndarray.flatten(Y)))
+    X=np.ndarray.flatten(X)
+    Y=np.ndarray.flatten(Y)
+    # Calculate a matrix of relative distance vector between the cells
+    X = X.reshape(-1,1)
+    Xdist = X.T - X+int((acf.shape[0]-1)/2)
+    Y = Y.reshape(-1,1)
+    Ydist = Y.T - Y+int((acf.shape[0]-1)/2) #acf relative distance vector (0,0)
+    cov =  np.copy(acf[Ydist,Xdist])
+    return cov
