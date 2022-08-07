@@ -3,9 +3,9 @@
 **ESSENCE** is a python package for evaluating the statistical significance of the image analysis and signal detection under correlated noise in the interferometric images (e.g., ALMA, NOEMA), namely, Evaluating Statistical Significance undEr Noise CorrElation.  
 This code does the following things for you:
 1. measuring noise autocorrelation function (ACF) which fully characterize the statistical properties of spatially correlated noise in the interferometric image.  
-2. compute the noise in the spatially integrated quantities (e.g., flux, spectrum) with a given aperture. 
-3. gives covariance matrix for image or cube fitting.
-4. simulate noise maps with the same correlation property.
+2. computing the noise in the spatially integrated quantities (e.g., flux, spectrum) with a given aperture. 
+3. simulating noise maps with the same correlation property.
+4. constructing a covariance matrix from noise ACF, which can be used for a 2d image or 3d cube model fitting.
 
 Detailed formulation of ESSENCE and its application are presented in Tsukui et al. 2022.
 
