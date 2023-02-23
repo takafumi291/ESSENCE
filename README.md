@@ -7,7 +7,7 @@ This code does the following things for you:
 3. simulating noise maps with the same correlation property.
 4. constructing a covariance matrix from noise ACF, which can be used for a 2d image or 3d cube model fitting.
 
-Detailed formulation of ESSENCE and its application are presented in Tsukui et al. 2022.
+Detailed formulation of ESSENCE and its application are presented in [Tsukui et al. 2023](https://www.spiedigitallibrary.org/journals/Journal-of-Astronomical-Telescopes-Instruments-and-Systems/volume-9/issue-01/018001/Estimating-the-statistical-uncertainty-due-to-spatially-correlated-noise-in/10.1117/1.JATIS.9.1.018001.full?SSO=1).
 
 ### Requirements:
 	
