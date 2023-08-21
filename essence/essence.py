@@ -59,8 +59,7 @@ def mk_noisemap(image, pb, pbfrac=0.7, sigma=4):
     if len(image.shape)==3:
         Pbmasked=np.copy(image._data)
         Pbmasked[~Pbmask]=np.nan
-        Sigmacliped = sigma_clip(Pbmasked, sigma=sigma, maxiters=5,masked=True, axis=(1,2),
-                                grow=0)
+        Sigmacliped = sigma_clip(Pbmasked, sigma=sigma, maxiters=5,masked=True, axis=(1,2))
         growpix=image.hdu.header['BMAJ']/image.hdu.header['CDELT2']
         Yy, Xx = np.indices([int(3*growpix),int(3*growpix)], dtype='float')
         CX=(int(3*growpix)-1)/2
@@ -75,8 +74,7 @@ def mk_noisemap(image, pb, pbfrac=0.7, sigma=4):
     if len(image.shape)==2:
         Pbmasked=np.copy(image.hdu.data)
         Pbmasked[~Pbmask]=np.nan
-        Sigmacliped = sigma_clip(Pbmasked, sigma=sigma, maxiters=5,masked=True, axis=None,
-                                grow=0)
+        Sigmacliped = sigma_clip(Pbmasked, sigma=sigma, maxiters=5,masked=True, axis=None)
         growpix=image.hdu.header['BMAJ']/image.hdu.header['CDELT2']
 
         Yy, Xx = np.indices([int(3*growpix),int(3*growpix)], dtype='float')
