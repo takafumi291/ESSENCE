@@ -2,9 +2,6 @@
     Copyright (C) 2022, Takafumi Tsukui
     E-mail: tsukuitk23@gmail.com
 
-    Updated versions of the software are available from my web page
-    https://sites.google.com/view/takafumitk/home?authuser=0
-
     If you have found this software useful for your research,
     I would appreciate an acknowledgement to the use of the
     "Essense (Evaluating Statistical Significance undEr CorrElation) of Tsukui (2022)"
