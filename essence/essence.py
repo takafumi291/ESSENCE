@@ -5,6 +5,7 @@
     If you have found this software useful for your research,
     I would appreciate an acknowledgement to the use of the
     "Essense (Evaluating Statistical Significance undEr CorrElation) of Tsukui (2022)"
+    https://ui.adsabs.harvard.edu/abs/2023JATIS...9a8001T/abstract
 
     This software is provided as is without any warranty whatsoever.
     Permission to use, for non-commercial purposes is granted.
